@@ -1,0 +1,378 @@
+﻿<Window x:Class="PregnancySystemManagement.ManageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PregnancySystemManagement"
+        mc:Ignorable="d"
+        Title="Management Dashboard" Height="600" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Grid Grid.Row="0" Background="#007ACC" Height="50">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="txtWelcome" 
+                       Text="Welcome to Pregnancy System Management" 
+                       Foreground="White" 
+                       FontSize="16" 
+                       VerticalAlignment="Center"
+                       TextAlignment="Center"/>
+            <TextBlock x:Name="txtUserInfo" 
+                       Grid.Column="1" 
+                       Foreground="White" 
+                       FontSize="14" 
+                       VerticalAlignment="Center" 
+                       Margin="0,0,20,0"/>
+        </Grid>
+
+        <!-- Tab Control for Different Management Sections -->
+        <TabControl Grid.Row="1" Margin="10">
+            <!-- Users Tab -->
+            <TabItem Header="Users">
+                <Grid>
+                    <!-- Search Panel -->
+                    <Grid Margin="20,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Email:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtSearchEmail" Grid.Column="1" Height="25" Margin="0,0,20,0"/>
+                        <TextBlock Text="User Type:" Grid.Column="2" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <ComboBox x:Name="cbUserType" Grid.Column="3" Height="25" Margin="0,0,20,0">
+                            <ComboBoxItem Content="All"/>
+                            <ComboBoxItem Content="1"/>
+                            <ComboBoxItem Content="2"/>
+                        </ComboBox>
+                        <Button x:Name="btnSearch" Grid.Column="4" Content="Search" Width="80" Height="25" 
+                                Background="#007ACC" Foreground="White" Click="btnSearch_Click"/>
+                    </Grid>
+
+                    <!-- Main Content -->
+                    <Grid Margin="20,0,20,20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="650*"/>
+                            <ColumnDefinition Width="350*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Data Grid -->
+                        <DataGrid x:Name="dgData" 
+                                  Grid.Column="0"
+                                  AutoGenerateColumns="False"
+                                  SelectionMode="Single"
+                                  SelectionChanged="dgData_SelectionChanged"
+                                  Margin="0,0,10,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="150"/>
+                                <DataGridTextColumn Header="First Name" Binding="{Binding FirstName}" Width="100"/>
+                                <DataGridTextColumn Header="Last Name" Binding="{Binding LastName}" Width="100"/>
+                                <DataGridTextColumn Header="User Type" Binding="{Binding UserType}" Width="80"/>
+                                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="80"/>
+                                <DataGridTextColumn Header="Created" Binding="{Binding CreatedAt, StringFormat=dd/MM/yyyy}" Width="90"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+                        <!-- Details Form -->
+                        <Border Grid.Column="1" Margin="10,0,0,0" Padding="20" Background="#f5f5f5" CornerRadius="5">
+                            <StackPanel>
+                                <TextBlock Text="Information Details" FontSize="18" FontWeight="Bold" Margin="0,0,0,20"/>
+                                
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Email" Margin="0,0,10,0"/>
+                                    <TextBox x:Name="txtEmail" Grid.Column="1" Width="180" HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Password" Margin="0,0,10,0"/>
+                                    <PasswordBox x:Name="txtPassword" Grid.Column="1" Width="180" HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="First Name" Margin="0,0,10,0"/>
+                                    <TextBox x:Name="txtFirstName" Grid.Column="1" Width="180" HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Last Name" Margin="0,0,10,0"/>
+                                    <TextBox x:Name="txtLastName" Grid.Column="1" Width="180" HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="User Type" Margin="0,0,10,0"/>
+                                    <ComboBox x:Name="cbDetailUserType" Grid.Column="1" Width="180" HorizontalAlignment="Right">
+                                        <ComboBoxItem Content="1"/>
+                                        <ComboBoxItem Content="2"/>
+                                    </ComboBox>
+                                </Grid>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Status" Margin="0,0,10,0"/>
+                                    <ComboBox x:Name="cbStatus" Grid.Column="1" Width="180" HorizontalAlignment="Right">
+                                        <ComboBoxItem Content="Active"/>
+                                        <ComboBoxItem Content="Inactive"/>
+                                    </ComboBox>
+                                </Grid>
+
+                                <StackPanel Orientation="Horizontal" Margin="0,20,0,0" HorizontalAlignment="Center">
+                                    <Button x:Name="btnAdd" Content="Add" Width="80" Margin="0,0,10,0" 
+                                            Background="#28a745" Foreground="White" Click="btnAdd_Click"/>
+                                    <Button x:Name="btnUpdate" Content="Update" Width="80" Margin="0,0,10,0" 
+                                            Background="#ffc107" Click="btnUpdate_Click"/>
+                                    <Button x:Name="btnDelete" Content="Delete" Width="80" 
+                                            Background="#dc3545" Foreground="White" Click="btnDelete_Click"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <!-- Posts Tab -->
+            <TabItem Header="Posts">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Search Panel -->
+                    <Grid Grid.Row="0" Margin="0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Title:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtSearchPostTitle" Grid.Column="1" Height="25" Margin="0,0,20,0"/>
+                        <TextBlock Text="Status:" Grid.Column="2" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <ComboBox x:Name="cbSearchPostStatus" Grid.Column="3" Height="25" Margin="0,0,20,0">
+                            <ComboBoxItem Content="All"/>
+                            <ComboBoxItem Content="Active"/>
+                            <ComboBoxItem Content="Hidden"/>
+                        </ComboBox>
+                        <Button x:Name="btnSearchPosts" Grid.Column="4" Content="Search" Width="80" Height="25" 
+                                Background="#007ACC" Foreground="White" Click="btnSearchPosts_Click"/>
+                    </Grid>
+
+                    <!-- Main Content -->
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="650*"/>
+                            <ColumnDefinition Width="350*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Posts List -->
+                        <DataGrid x:Name="dgPosts" 
+                                  Grid.Column="0"
+                                  AutoGenerateColumns="False"
+                                  SelectionMode="Single"
+                                  SelectionChanged="dgPosts_SelectionChanged"
+                                  Margin="0,0,10,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                                <DataGridTextColumn Header="User" Binding="{Binding User.Email}" Width="150"/>
+                                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="200"/>
+                                <DataGridTextColumn Header="Content" Binding="{Binding Content}" Width="250"/>
+                                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="100"/>
+                                <DataGridTextColumn Header="Created At" Binding="{Binding CreatedAt, StringFormat=dd/MM/yyyy}" Width="100"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+                        <!-- Post Details -->
+                        <Border Grid.Column="1" Margin="10,0,0,0" Padding="20" Background="#f5f5f5" CornerRadius="5">
+                            <StackPanel>
+                                <TextBlock Text="Post Details" FontSize="18" FontWeight="Bold" Margin="0,0,0,20"/>
+                                
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Title:" Margin="0,0,10,0"/>
+                                    <TextBox x:Name="txtPostTitle" Grid.Column="1" Width="180" HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <TextBlock Text="Content:" Margin="0,0,0,5"/>
+                                <TextBox x:Name="txtPostContent" 
+                                         Height="150" 
+                                         TextWrapping="Wrap" 
+                                         AcceptsReturn="True"
+                                         VerticalScrollBarVisibility="Auto"
+                                         Margin="0,0,0,10"/>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Status:" Margin="0,0,10,0"/>
+                                    <ComboBox x:Name="cbPostStatus" Grid.Column="1" Width="180" HorizontalAlignment="Right">
+                                        <ComboBoxItem Content="Active"/>
+                                        <ComboBoxItem Content="Hidden"/>
+                                    </ComboBox>
+                                </Grid>
+
+                                <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                                    <Button x:Name="btnAddPost" Content="Add" Width="80" Margin="0,0,10,0" 
+                                            Background="#28a745" Foreground="White" Click="btnAddPost_Click"/>
+                                    <Button x:Name="btnUpdatePost" Content="Update" Width="80" Margin="0,0,10,0" 
+                                            Background="#ffc107" Click="btnUpdatePost_Click"/>
+                                    <Button x:Name="btnDeletePost" Content="Delete" Width="80" 
+                                            Background="#dc3545" Foreground="White" Click="btnDeletePost_Click"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <!-- Pregnancy Profiles Tab -->
+            <TabItem Header="Pregnancy Profiles">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Search Panel for Profiles -->
+                    <Grid Grid.Row="0" Margin="0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="User Email:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtSearchProfileUser" Grid.Column="1" Height="25" Margin="0,0,20,0"/>
+                        <TextBlock Text="Status:" Grid.Column="2" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                        <ComboBox x:Name="cbSearchProfileStatus" Grid.Column="3" Height="25" Margin="0,0,20,0">
+                            <ComboBoxItem Content="All"/>
+                            <ComboBoxItem Content="Active"/>
+                            <ComboBoxItem Content="Completed"/>
+                        </ComboBox>
+                        <Button x:Name="btnSearchProfiles" Grid.Column="4" Content="Search" Width="80" Height="25" 
+                                Background="#007ACC" Foreground="White" Click="btnSearchProfiles_Click"/>
+                    </Grid>
+
+                    <!-- Main Content -->
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="650*"/>
+                            <ColumnDefinition Width="350*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Profiles List -->
+                        <DataGrid x:Name="dgProfiles" 
+                                  Grid.Column="0"
+                                  AutoGenerateColumns="False"
+                                  SelectionMode="Single"
+                                  SelectionChanged="dgProfiles_SelectionChanged"
+                                  Margin="0,0,10,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                                <DataGridTextColumn Header="User" Binding="{Binding User.Email}" Width="150"/>
+                                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="100"/>
+                                <DataGridTextColumn Header="Conception Date" Binding="{Binding ConceptionDate, StringFormat=dd/MM/yyyy}" Width="100"/>
+                                <DataGridTextColumn Header="Due Date" Binding="{Binding DueDate, StringFormat=dd/MM/yyyy}" Width="100"/>
+                                <DataGridTextColumn Header="Status" Binding="{Binding PregnancyStatus}" Width="80"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+                        <!-- Profile Details Form -->
+                        <Border Grid.Column="1" Margin="10,0,0,0" Padding="20" Background="#f5f5f5" CornerRadius="5">
+                            <StackPanel>
+                                <TextBlock Text="Profile Details" FontSize="18" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Name:" Margin="0,0,10,0"/>
+                                    <TextBox x:Name="txtProfileName" Grid.Column="1" Width="180" HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Conception Date:" Margin="0,0,10,0"/>
+                                    <DatePicker x:Name="dpConceptionDate" Grid.Column="1" Width="180" HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Due Date:" Margin="0,0,10,0"/>
+                                    <DatePicker x:Name="dpDueDate" Grid.Column="1" Width="180" HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <Grid Margin="0,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Status:" Margin="0,0,10,0"/>
+                                    <ComboBox x:Name="cbProfileStatus" Grid.Column="1" Width="180" HorizontalAlignment="Right">
+                                        <ComboBoxItem Content="Active"/>
+                                        <ComboBoxItem Content="Completed"/>
+                                    </ComboBox>
+                                </Grid>
+
+                                <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                                    <Button x:Name="btnAddProfile" Content="Add" Width="80" Margin="0,0,10,0" 
+                                            Background="#28a745" Foreground="White" Click="btnAddProfile_Click"/>
+                                    <Button x:Name="btnUpdateProfile" Content="Update" Width="80" Margin="0,0,10,0" 
+                                            Background="#ffc107" Click="btnUpdateProfile_Click"/>
+                                    <Button x:Name="btnDeleteProfile" Content="Delete" Width="80" 
+                                            Background="#dc3545" Foreground="White" Click="btnDeleteProfile_Click"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

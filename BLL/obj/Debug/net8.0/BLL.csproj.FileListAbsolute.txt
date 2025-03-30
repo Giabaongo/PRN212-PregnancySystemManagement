@@ -13,3 +13,19 @@ C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net8.0\refint\BLL.dll
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net8.0\BLL.pdb
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net8.0\ref\BLL.dll
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.dll
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\refint\BLL.dll
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.pdb
+F:\prn212\PRN212-PregnancySystemManagement\BLL\bin\Debug\net8.0\BLL.deps.json
+F:\prn212\PRN212-PregnancySystemManagement\BLL\bin\Debug\net8.0\BLL.dll
+F:\prn212\PRN212-PregnancySystemManagement\BLL\bin\Debug\net8.0\BLL.pdb
+F:\prn212\PRN212-PregnancySystemManagement\BLL\bin\Debug\net8.0\DAL.dll
+F:\prn212\PRN212-PregnancySystemManagement\BLL\bin\Debug\net8.0\DAL.pdb
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\ref\BLL.dll
