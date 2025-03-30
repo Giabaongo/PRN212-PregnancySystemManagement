@@ -29,3 +29,4 @@ F:\prn212\PRN212-PregnancySystemManagement\BLL\bin\Debug\net8.0\DAL.dll
 F:\prn212\PRN212-PregnancySystemManagement\BLL\bin\Debug\net8.0\DAL.pdb
 F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
 F:\prn212\PRN212-PregnancySystemManagement\BLL\obj\Debug\net8.0\ref\BLL.dll
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net8.0\BLL.sourcelink.json

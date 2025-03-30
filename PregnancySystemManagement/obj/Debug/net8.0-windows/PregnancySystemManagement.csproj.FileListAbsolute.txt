@@ -58,11 +58,9 @@ C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemMa
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\bin\Debug\net8.0-windows\BLL.pdb
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\bin\Debug\net8.0-windows\DAL.pdb
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\PregnancySystemManagement.csproj.AssemblyReference.cache
-C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\PregnancySystemManagement_MarkupCompile.cache
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\PregnancySystemManagement_MarkupCompile.lref
-C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\PregnancySystemManagement.g.resources
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\PregnancySystemManagement.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\PregnancySystemManagement.AssemblyInfoInputs.cache
@@ -153,3 +151,8 @@ F:\prn212\PRN212-PregnancySystemManagement\PregnancySystemManagement\obj\Debug\n
 F:\prn212\PRN212-PregnancySystemManagement\PregnancySystemManagement\obj\Debug\net8.0-windows\Pregnanc.EBCFA2AA.Up2Date
 F:\prn212\PRN212-PregnancySystemManagement\PregnancySystemManagement\obj\Debug\net8.0-windows\PregnancySystemManagement.genruntimeconfig.cache
 F:\prn212\PRN212-PregnancySystemManagement\PregnancySystemManagement\obj\Debug\net8.0-windows\ref\PregnancySystemManagement.dll
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\LoginWindow.g.cs
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\ManageWindow.g.cs
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\LoginWindow.baml
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\ManageWindow.baml
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\PregnancySystemManagement.sourcelink.json
