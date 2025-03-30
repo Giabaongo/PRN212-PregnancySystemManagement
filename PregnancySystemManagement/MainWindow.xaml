@@ -5,8 +5,311 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PregnancySystemManagement"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow"
+        Height="605"
+        Width="800">
+    <Grid Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <!-- Header with Welcome -->
+        <Grid Grid.Row="0"
+              Background="#007ACC"
+              Height="50"
+              Margin="0,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="txtWelcome"
+                       Text="Hi! Welcome back to Pregnancy System Management"
+                       Foreground="White"
+                       FontSize="16"
+                       VerticalAlignment="Center"
+                       TextAlignment="Center"
+                       Margin="20,0,0,0"/>
+            <TextBlock x:Name="txtRoleStatus"
+                       Grid.Column="1"
+                       Foreground="White"
+                       FontSize="14"
+                       VerticalAlignment="Center"
+                       Margin="0,0,20,0"/>
+        </Grid>
+
+        <!-- Search Panel -->
+        <Grid Grid.Row="1"
+              Margin="20,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="                  Email:"
+                       VerticalAlignment="Center"
+                       Margin="0,0,10,0"/>
+            <TextBox x:Name="txtSearchPreOrderNo"
+                     Grid.Column="1"
+                     Height="25"
+                     Margin="0,0,20,0"/>
+            <TextBlock Text="User Phone:"
+                       Grid.Column="2"
+                       VerticalAlignment="Center"
+                       Margin="0,0,10,0"/>
+            <TextBox x:Name="txtSearchPhone"
+                     Grid.Column="3"
+                     Height="25"
+                     Margin="0,0,20,0"/>
+            <Button x:Name="btnSearch"
+                    Grid.Column="4"
+                    Content="Search"
+                    Width="80"
+                    Height="25"
+                    Background="#007ACC"
+                    Foreground="White"
+                    Click="btnSearch_Click"/>
+        </Grid>
+
+        <!-- Main Content -->
+        <Grid Grid.Row="2"
+              Margin="20,0,20,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="650*"/>
+                <ColumnDefinition Width="350*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- PreOrder List -->
+            <DataGrid x:Name="dgPreOders"
+                      Grid.Column="0"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      SelectionMode="Single"
+                      SelectionChanged="dgPreOrders_SelectionChanged"
+                      Margin="0,0,10,0">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID"
+                                        Binding="{Binding Id}"
+                                        Width="27"/>
+                    <DataGridTextColumn Header="Email"
+                                        Binding="{Binding Email}"
+                                        Width="27"/>
+                    <DataGridTextColumn Header="Password"
+                                        Binding="{Binding Password}"
+                                        Width="46"/>
+                    <DataGridTextColumn Header="UserType"
+                                        Binding="{Binding UserType}"
+                                        Width="45"/>
+                    <DataGridTextColumn Header="Firstname"
+                                        Binding="{Binding FirstName}"
+                                        Width="62"/>
+                    <DataGridTextColumn Header="LastName"
+                                        Binding="{Binding LastName}"
+                                        Width="54"/>
+                    <DataGridTextColumn Header="Gender"
+                                        Binding="{Binding Gender}"
+                                        Width="47"/>
+                    <DataGridTextColumn Header="Phone"
+                                        Binding="{Binding Phone}"
+                                        Width="43"/>
+                    <DataGridTextColumn Header="Status"
+                                        Binding="{Binding Status}"
+                                        Width="43"/>
+                    <!--<DataGridTextColumn Header="DayOfBirth"
+                                        Binding="{Binding DateOfBirth, StringFormat=dd/MM/yyyy}"
+                                        Width="43"/>-->
+                    <DataGridTextColumn Header="CreatedAt"
+                                        Binding="{Binding CreatedAt, StringFormat=dd/MM/yyyy}"
+                                        Width="55"/>
+                    
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Information Details Form -->
+            <Border Grid.Column="1"
+                    Margin="10,0,0,0"
+                    Padding="20"
+                    Background="#f5f5f5"
+                    CornerRadius="5">
+                <StackPanel>
+                    <TextBlock Text="Information Details"
+                               FontSize="18"
+                               FontWeight="Bold"
+                               Margin="0,0,0,20"/>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="ID"
+                                   Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtID"
+                                 Grid.Column="1"
+                                 Width="110"
+                                 HorizontalAlignment="Right"
+                                 IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Email"
+                                   Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtEmail"
+                                 Grid.Column="1"
+                                 Width="110"
+                                 HorizontalAlignment="Right"
+                                 IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Password"
+                                   Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtPassword"
+                                 Grid.Column="1"
+                                 Width="110"
+                                 HorizontalAlignment="Right"
+                                 IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="UserType"
+                                   Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtUserType"
+                                 Grid.Column="1"
+                                 Width="110"
+                                 HorizontalAlignment="Right"
+                                 IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Firstname"
+                                   Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtFirstname"
+                                 Grid.Column="1"
+                                 Width="110"
+                                 HorizontalAlignment="Right"
+                                 IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="LastName"
+                                   Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtLastName"
+                                 Grid.Column="1"
+                                 Width="110"
+                                 HorizontalAlignment="Right"
+                                 IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Gender"
+                                   Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtGender"
+                                 Grid.Column="1"
+                                 Width="110"
+                                 HorizontalAlignment="Right"
+                                 IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Phone"
+                                   Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtPhone"
+                                 Grid.Column="1"
+                                 Width="110"
+                                 HorizontalAlignment="Right"
+                                 IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Status"
+                                   Margin="0,0,10,0"/>
+                        <TextBox x:Name="txtStatus"
+                                 Grid.Column="1"
+                                 Width="110"
+                                 HorizontalAlignment="Right"
+                                 IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    <!--<Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="DayOfBirth"
+                                   Margin="0,0,10,0"/>
+                        <DatePicker x:Name="dpDayOfBirth"
+                                    Grid.Column="1"
+                                    Width="110"
+                                    HorizontalAlignment="Right"
+                                    IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>-->
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Created At"
+                                   Margin="0,0,10,0"/>
+                        <DatePicker x:Name="dpCreatedAt"
+                                    Grid.Column="1"
+                                    Width="110"
+                                    HorizontalAlignment="Right"
+                                    IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </Grid>
+                    
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0,20,0,0">
+                        <Button x:Name="btnAdd"
+                                Content="Add"
+                                Width="65"
+                                Margin="0,0,10,0"
+                                Background="#28a745"
+                                Foreground="White"
+                                Click="btnAdd_Click"
+                                IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                        <Button x:Name="btnUpdate"
+                                Content="Update"
+                                Width="65"
+                                Margin="0,0,10,0"
+                                Background="#ffc107"
+                                Click="btnUpdate_Click"
+                                IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                        <Button x:Name="btnDelete"
+                                Content="Delete"
+                                Width="65"
+                                Background="#dc3545"
+                                Foreground="White"
+                                Click="btnDelete_Click"
+                                IsEnabled="{Binding IsCrudEnabled, RelativeSource={RelativeSource AncestorType=Window}}"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
     </Grid>
 </Window>

@@ -12,10 +12,10 @@ public class UserService //: IUserService
         _userRepository = new UserRepository();
     }
 
-    //public IEnumerable<User> GetAllUsers()
-    //{
-    //    return _userRepository.GetAll();
-    //}
+    public IEnumerable<User> GetAllUsers()
+    {
+        return _userRepository.GetAll();
+    }
 
     //public User? GetUserById(int id)
     //{

@@ -9,6 +9,11 @@ public class UserRepository : IUserRepository
         _dbSet = new PregnancyTrackingSystemContext();
     }
 
+    public IEnumerable<User> GetAll()
+    {
+        return _dbSet.Users.ToList();
+    }
+
     public User? GetByEmail(string email)
     {
         return _dbSet.Users.FirstOrDefault(u => u.Email == email);

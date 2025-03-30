@@ -3,63 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\bll\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|solutionrelative:bll\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\bll\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|solutionrelative:bll\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\repository\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\repository\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\models\\pregnancytrackingsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\models\\pregnancytrackingsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\models\\pregnancyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\models\\pregnancyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BAO\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|solutionrelative:bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,194 +55,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CommentService.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\CommentService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\CommentService.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\CommentService.cs",
-              "RelativeToolTip": "BLL\\Services\\CommentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:39:21.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\IPostRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repository\\IPostRepository.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\IPostRepository.cs",
-              "RelativeToolTip": "DAL\\Repository\\IPostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:39:07.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICommentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\ICommentRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repository\\ICommentRepository.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\ICommentRepository.cs",
-              "RelativeToolTip": "DAL\\Repository\\ICommentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:38:53.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PostRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repository\\PostRepository.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PostRepository.cs",
-              "RelativeToolTip": "DAL\\Repository\\PostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:38:12.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CommentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\CommentRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repository\\CommentRepository.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\CommentRepository.cs",
-              "RelativeToolTip": "DAL\\Repository\\CommentRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:34:25.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PregnancyTrackingSystemContext.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\PregnancyTrackingSystemContext.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\PregnancyTrackingSystemContext.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\PregnancyTrackingSystemContext.cs",
-              "RelativeToolTip": "DAL\\Models\\PregnancyTrackingSystemContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:27:16.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\LoginWindow.xaml.cs",
               "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\LoginWindow.xaml.cs",
               "RelativeToolTip": "PregnancySystemManagement\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwCAAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA0wB0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:07:25.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "PregnancySystemManagement\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\LoginWindow.xaml",
-              "RelativeToolTip": "PregnancySystemManagement\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-30T18:11:30.542Z",
+              "WhenOpened": "2025-03-30T19:17:10.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\PostService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\PostService.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\PostService.cs",
-              "RelativeToolTip": "BLL\\Services\\PostService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAqwDIAAAAHAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\User.cs",
+              "RelativeToolTip": "DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAywBUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:40:31.351Z",
+              "WhenOpened": "2025-03-30T19:15:19.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PregnancyProfile.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\PregnancyProfile.cs",
-              "RelativeDocumentMoniker": "DAL\\Models\\PregnancyProfile.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\PregnancyProfile.cs",
-              "RelativeToolTip": "DAL\\Models\\PregnancyProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:27:54.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repository\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\IUserRepository.cs",
-              "RelativeToolTip": "DAL\\Repository\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:24:18.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repository\\UserRepository.cs",
               "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\UserRepository.cs",
               "RelativeToolTip": "DAL\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:23:18.06Z",
+              "WhenOpened": "2025-03-30T19:07:26.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "XamlReader.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
-              "ToolTip": "C:\\Users\\BAO\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
-              "ViewState": "AgIAAKMBAAAAAAAAAAAAwLUBAAACAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:21:08.354Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\UserService.cs",
               "RelativeToolTip": "BLL\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:08:17.936Z",
+              "WhenOpened": "2025-03-30T19:07:12.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\App.xaml",
-              "RelativeDocumentMoniker": "PregnancySystemManagement\\App.xaml",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\App.xaml",
-              "RelativeToolTip": "PregnancySystemManagement\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-30T18:20:55.085Z",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PregnancySystemManagement\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PregnancySystemManagement\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T19:05:22.273Z",
               "EditorCaption": ""
             }
           ]
