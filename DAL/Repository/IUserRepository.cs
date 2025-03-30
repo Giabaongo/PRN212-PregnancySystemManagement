@@ -2,7 +2,7 @@ using DAL.Models;
 
 namespace DAL.Repository;
 
-public interface IUserRepository : IGenericRepository<User>
+public interface IUserRepository
 {
     User? GetByEmail(string email);
     IEnumerable<User> GetUsersByType(string userType);

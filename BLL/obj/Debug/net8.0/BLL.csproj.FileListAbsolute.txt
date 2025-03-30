@@ -13,3 +13,4 @@ C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net8.0\refint\BLL.dll
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net8.0\BLL.pdb
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net8.0\ref\BLL.dll
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\BLL\obj\Debug\net8.0\BLL.sourcelink.json
