@@ -133,8 +133,7 @@
               "RelativeToolTip": "BLL\\Service\\PostService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T19:00:23.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T19:00:23.741Z"
             },
             {
               "$type": "Document",
@@ -146,8 +145,7 @@
               "RelativeToolTip": "DAL\\Repository\\FetalMeasurementRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:56:13.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:56:13.353Z"
             },
             {
               "$type": "Document",
@@ -159,8 +157,7 @@
               "RelativeToolTip": "BLL\\Service\\UserService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAB0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:34:27.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:34:27.513Z"
             },
             {
               "$type": "Document",
@@ -170,7 +167,7 @@
               "RelativeDocumentMoniker": "DAL\\Repository\\UserRepository.cs",
               "ToolTip": "F:\\prn212\\PRN212-PregnancySystemManagement\\DAL\\Repository\\UserRepository.cs",
               "RelativeToolTip": "DAL\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAD4vw4AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAtwA4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T18:44:14.181Z",
               "EditorCaption": ""
@@ -185,8 +182,7 @@
               "RelativeToolTip": "DAL\\Repository\\PregnancyProfileRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:46:17.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:46:17.818Z"
             },
             {
               "$type": "Document",
@@ -198,8 +194,7 @@
               "RelativeToolTip": "PregnancySystemManagement\\ManageWindow.xaml.cs",
               "ViewState": "AgIAAPQAAAAAAAAAAAAkwAUBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:56:23.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:56:23.963Z"
             },
             {
               "$type": "Document",
@@ -211,8 +206,7 @@
               "RelativeToolTip": "PregnancySystemManagement\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-30T16:46:51.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T16:46:51.996Z"
             },
             {
               "$type": "Document",
@@ -223,8 +217,7 @@
               "ToolTip": "F:\\prn212\\PRN212-PregnancySystemManagement\\PregnancySystemManagement\\ManageWindow.xaml",
               "RelativeToolTip": "PregnancySystemManagement\\ManageWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-30T18:50:04.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:50:04.985Z"
             },
             {
               "$type": "Document",
@@ -247,8 +240,7 @@
               "RelativeToolTip": "BLL\\Service\\CommentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T19:00:47.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T19:00:47.298Z"
             },
             {
               "$type": "Document",
@@ -260,8 +252,7 @@
               "RelativeToolTip": "DAL\\Repository\\PostRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:56:26.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:56:26.73Z"
             },
             {
               "$type": "Document",
@@ -273,8 +264,7 @@
               "RelativeToolTip": "DAL\\Repository\\CommentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:45:06.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:45:06.757Z"
             },
             {
               "$type": "Document",
@@ -286,8 +276,7 @@
               "RelativeToolTip": "BLL\\Service\\FetalMeasurementService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:56:19.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:56:19.97Z"
             },
             {
               "$type": "Document",
@@ -299,8 +288,7 @@
               "RelativeToolTip": "BLL\\Service\\PregnancyProfileService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:44:48.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:44:48.473Z"
             },
             {
               "$type": "Document",
@@ -312,8 +300,7 @@
               "RelativeToolTip": "PregnancySystemManagement\\LoginWindow.xaml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAuwBwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:53:24.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:53:24.56Z"
             },
             {
               "$type": "Document",
@@ -324,8 +311,7 @@
               "ToolTip": "F:\\prn212\\PRN212-PregnancySystemManagement\\PregnancySystemManagement\\LoginWindow.xaml",
               "RelativeToolTip": "PregnancySystemManagement\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-30T18:36:51.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:36:51.88Z"
             },
             {
               "$type": "Document",
@@ -336,8 +322,7 @@
               "ToolTip": "F:\\prn212\\PRN212-PregnancySystemManagement\\PregnancySystemManagement\\App.xaml",
               "RelativeToolTip": "PregnancySystemManagement\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-30T18:53:13.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:53:13.703Z"
             },
             {
               "$type": "Document",
@@ -349,8 +334,7 @@
               "RelativeToolTip": "DAL\\Models\\PregnancyTrackingSystemContext.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T17:06:38.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T17:06:38.914Z"
             },
             {
               "$type": "Document",
@@ -362,8 +346,7 @@
               "RelativeToolTip": "DAL\\Models\\Appointment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T16:51:41.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T16:51:41.772Z"
             },
             {
               "$type": "Document",
@@ -375,8 +358,7 @@
               "RelativeToolTip": "BLL\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T16:45:20.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T16:45:20.688Z"
             }
           ]
         },

@@ -113,8 +113,26 @@ namespace PregnancySystemManagement
                 txtPassword.Password = string.Empty;
                 txtFirstName.Text = selectedUser.FirstName;
                 txtLastName.Text = selectedUser.LastName;
-                cbDetailUserType.SelectedValue = selectedUser.UserType;
-                cbStatus.SelectedValue = selectedUser.Status;
+                
+                // Fix UserType selection
+                foreach (ComboBoxItem item in cbDetailUserType.Items)
+                {
+                    if (item.Content.ToString() == selectedUser.UserType)
+                    {
+                        cbDetailUserType.SelectedItem = item;
+                        break;
+                    }
+                }
+                
+                // Fix Status selection
+                foreach (ComboBoxItem item in cbStatus.Items)
+                {
+                    if (item.Content.ToString() == selectedUser.Status)
+                    {
+                        cbStatus.SelectedItem = item;
+                        break;
+                    }
+                }
             }
         }
 
@@ -167,9 +185,23 @@ namespace PregnancySystemManagement
             try
             {
                 var newUserType = (cbDetailUserType.SelectedItem as ComboBoxItem)?.Content.ToString();
-                if (!string.IsNullOrEmpty(newUserType) && int.Parse(newUserType) > 2)
+                if (string.IsNullOrEmpty(newUserType))
+                {
+                    MessageBox.Show("Please select a user type", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                if (int.Parse(newUserType) > 2)
                 {
                     MessageBox.Show("You cannot change user type to this level!", "Access Denied", 
+                        MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                // Check if trying to update own user type
+                if (selectedUser.Id == _currentUser.Id && newUserType != _currentUser.UserType)
+                {
+                    MessageBox.Show("You cannot change your own user type!", "Warning", 
                         MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }

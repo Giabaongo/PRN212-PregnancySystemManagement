@@ -51,9 +51,8 @@
                         <TextBlock Text="User Type:" Grid.Column="2" VerticalAlignment="Center" Margin="0,0,10,0"/>
                         <ComboBox x:Name="cbUserType" Grid.Column="3" Height="25" Margin="0,0,20,0">
                             <ComboBoxItem Content="All"/>
-                            <ComboBoxItem Content="Admin"/>
-                            <ComboBoxItem Content="Doctor"/>
-                            <ComboBoxItem Content="Member"/>
+                            <ComboBoxItem Content="1"/>
+                            <ComboBoxItem Content="2"/>
                         </ComboBox>
                         <Button x:Name="btnSearch" Grid.Column="4" Content="Search" Width="80" Height="25" 
                                 Background="#007ACC" Foreground="White" Click="btnSearch_Click"/>
@@ -132,9 +131,8 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Text="User Type" Margin="0,0,10,0"/>
                                     <ComboBox x:Name="cbDetailUserType" Grid.Column="1" Width="180" HorizontalAlignment="Right">
-                                        <ComboBoxItem Content="Admin"/>
-                                        <ComboBoxItem Content="Doctor"/>
-                                        <ComboBoxItem Content="Member"/>
+                                        <ComboBoxItem Content="1"/>
+                                        <ComboBoxItem Content="2"/>
                                     </ComboBox>
                                 </Grid>
 
