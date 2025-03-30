@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\
+F:\prn212\PRN212-PregnancySystemManagement\PregnancySystemManagement\obj\Debug\net8.0-windows\
 PregnancySystemManagement
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\App.xaml
-11407045341
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+F:\prn212\PRN212-PregnancySystemManagement\PregnancySystemManagement\App.xaml
+21958691000
 
-62050982869
-236-1956258430
-MainWindow.xaml;
+7-552684949
+2361545332035
+LoginWindow.xaml;ManageWindow.xaml;
 
 False
 

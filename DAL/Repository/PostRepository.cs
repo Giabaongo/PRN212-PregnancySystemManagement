@@ -1,24 +1,58 @@
-using DAL.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using DAL.Models;
 
-namespace DAL.Repository;
-
-public class PostRepository : GenericRepository<Post>, IPostRepository
+namespace DAL.Repository
 {
-    public PostRepository(PregnancyTrackingSystemContext context) : base(context)
+    public class PostRepository
     {
-    }
+        private readonly PregnancyTrackingSystemContext _context;
 
-    public IEnumerable<Post> GetPostsByUser(int userId)
-    {
-        return _dbSet.Where(p => p.UserId == userId).ToList();
-    }
+        public PostRepository( )
+        {
+            _context = new PregnancyTrackingSystemContext();
+        }
 
-    public Post? GetPostWithComments(int postId)
-    {
-        return _dbSet
-            .Include(p => p.Comments)
-            .ThenInclude(c => c.User)
-            .FirstOrDefault(p => p.Id == postId);
+        public List<Post> GetAll()
+        {
+            return _context.Posts.Include(p => p.User).Include(p => p.Comments).ToList();
+        }
+
+        public Post GetById(int id)
+        {
+            return _context.Posts
+                .Include(p => p.User)
+                .Include(p => p.Comments)
+                .FirstOrDefault(p => p.Id == id);
+        }
+
+        public List<Post> GetByUserId(int userId)
+        {
+            return _context.Posts
+                .Include(p => p.User)
+                .Include(p => p.Comments)
+                .Where(p => p.UserId == userId)
+                .ToList();
+        }
+
+        public void Add(Post post)
+        {
+            _context.Posts.Add(post);
+            _context.SaveChanges();
+        }
+
+        public void Update(Post post)
+        {
+            _context.Posts.Update(post);
+            _context.SaveChanges();
+        }
+
+        public void Delete(Post post)
+        {
+            _context.Posts.Remove(post);
+            _context.SaveChanges();
+        }
     }
-}
+} 
