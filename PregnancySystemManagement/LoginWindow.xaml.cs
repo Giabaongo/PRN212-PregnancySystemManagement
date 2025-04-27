@@ -24,19 +24,14 @@ namespace PregnancySystemManagement
 
             User user = _userService.GetUserLogin(email, password);
 
-            //if (user != null && user.UserType == "1")
-            //{
-            //    MainWindow mainWindow = new MainWindow();
-            //    mainWindow.Show();
-            //    this.Close();
-            //}
-            //else
-            //else if (user != null && user.UserType == "2")
-            //{
-            //    DoctorWindow doctorWindow = new DoctorWindow(user, _userService);
-            //    doctorWindow.Show();
-            //    this.Close();
-            //}
+            if (user != null && user.UserType == "1")
+            {
+                UserWindow userWindow = new UserWindow(user, _userService);
+                userWindow.Show();
+                this.Close();
+            }
+            else
+
 
             if (user != null && (user.UserType == "3" || user.UserType == "4"))
             {

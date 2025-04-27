@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using BLL.Service;
+using BLL.Services;
+using DAL.Models;
 
 namespace PregnancySystemManagement
 {
@@ -19,9 +10,37 @@ namespace PregnancySystemManagement
     /// </summary>
     public partial class UserWindow : Window
     {
-        public UserWindow()
+        private readonly MembershipPlanService _membershipPlanService;
+        public readonly User _currentUser;
+        private readonly UserService _userService;
+
+        public UserWindow(User user, UserService userService)
         {
             InitializeComponent();
+            _currentUser = user;
+            _userService = userService;
+            txtUserInfo.Text = $"User: {_currentUser.Email} ({_currentUser.UserType})";
+            _membershipPlanService = new MembershipPlanService();
+            LoadMembershipPlans();
+        }
+
+        private void LoadMembershipPlans()
+        {
+            var plans = _membershipPlanService.GetAllPlans();
+            membershipPlansList.ItemsSource = plans;
+        }
+
+        private void SubscribeButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is FrameworkElement element && element.DataContext is MembershipPlan selectedPlan)
+            {
+                // TODO: Implement subscription logic
+                MessageBox.Show($"You have selected the {selectedPlan.PlanName} plan. Price: {selectedPlan.Price:C}");
+
+                // Close the window after selection
+                this.DialogResult = true;
+                this.Close();
+            }
         }
     }
 }
