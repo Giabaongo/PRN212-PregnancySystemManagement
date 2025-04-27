@@ -15,33 +15,37 @@
         </Grid.RowDefinitions>
 
 
-        <Grid Grid.Row="0" Background="#007ACC" Height="50">
+        <Grid Grid.Row="0"
+              Background="#007ACC"
+              Height="50">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <TextBlock x:Name="txtWelcome" 
-               Text="Welcome to Pregnancy System Management" 
-               Foreground="White" 
-               FontSize="16" 
-               VerticalAlignment="Center"
-               TextAlignment="Center"/>
-            <TextBlock x:Name="txtUserInfo" 
-               Grid.Column="1" 
-               Foreground="White" 
-               FontSize="14" 
-               VerticalAlignment="Center" 
-               Margin="0,0,20,0"/>
+            <TextBlock x:Name="txtWelcome"
+                       Text="Welcome to Pregnancy System Management"
+                       Foreground="White"
+                       FontSize="16"
+                       VerticalAlignment="Center"
+                       TextAlignment="Center"/>
+            <TextBlock x:Name="txtUserInfo"
+                       Grid.Column="1"
+                       Foreground="White"
+                       FontSize="14"
+                       VerticalAlignment="Center"
+                       Margin="0,0,20,0"/>
         </Grid>
         <!-- Header -->
         <TextBlock Text="Choose Your Membership Plan"
                    FontSize="24"
                    FontWeight="Bold"
-                   Margin="0,4,0,399" Grid.Row="1"/>
-        
+                   Margin="0,4,0,399"
+                   Grid.Row="1"/>
+
         <!-- Membership Plans List -->
         <ItemsControl x:Name="membershipPlansList"
-                      Grid.Row="1" Margin="0,100,0,-43">
+                      Grid.Row="1"
+                      Margin="0,100,0,-43">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel/>

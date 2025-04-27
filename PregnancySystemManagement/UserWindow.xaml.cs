@@ -1,7 +1,9 @@
 ﻿using System.Windows;
+using System.Windows.Controls;
 using BLL.Service;
 using BLL.Services;
 using DAL.Models;
+using DAL.Repositories;
 
 namespace PregnancySystemManagement
 {
@@ -10,36 +12,72 @@ namespace PregnancySystemManagement
     /// </summary>
     public partial class UserWindow : Window
     {
-        private readonly MembershipPlanService _membershipPlanService;
-        public readonly User _currentUser;
+        private readonly User _user;
         private readonly UserService _userService;
+        private readonly MembershipService _membershipService;
 
         public UserWindow(User user, UserService userService)
         {
             InitializeComponent();
-            _currentUser = user;
+            _user = user;
             _userService = userService;
-            txtUserInfo.Text = $"User: {_currentUser.Email} ({_currentUser.UserType})";
-            _membershipPlanService = new MembershipPlanService();
+            _membershipService = new MembershipService(new MembershipRepository(new PregnancyTrackingSystemContext()));
+
+            LoadUserInfo();
             LoadMembershipPlans();
         }
 
-        private void LoadMembershipPlans()
+        private async void LoadUserInfo()
         {
-            var plans = _membershipPlanService.GetAllPlans();
+            txtWelcome.Text = $"Welcome, {_user.LastName}";
+            txtUserInfo.Text = $"Email: {_user.Email}";
+
+            var membership = await _membershipService.GetActiveMembershipByUserId(_user.Id);
+            if (membership != null)
+            {
+                txtWelcome.Text += " (Active Member)";
+            }
+        }
+
+        private async void LoadMembershipPlans()
+        {
+            var plans = await _membershipService.GetAllPlans();
             membershipPlansList.ItemsSource = plans;
         }
 
-        private void SubscribeButton_Click(object sender, RoutedEventArgs e)
+        private async void SubscribeButton_Click(object sender, RoutedEventArgs e)
         {
-            if (sender is FrameworkElement element && element.DataContext is MembershipPlan selectedPlan)
-            {
-                // TODO: Implement subscription logic
-                MessageBox.Show($"You have selected the {selectedPlan.PlanName} plan. Price: {selectedPlan.Price:C}");
+            var button = sender as Button;
+            if (button == null) return;
 
-                // Close the window after selection
-                this.DialogResult = true;
-                this.Close();
+            var plan = button.DataContext as MembershipPlan;
+            if (plan == null) return;
+
+            try
+            {
+                var existingMembership = await _membershipService.GetActiveMembershipByUserId(_user.Id);
+                if (existingMembership != null)
+                {
+                    MessageBox.Show("You already have an active membership.", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+
+                var result = MessageBox.Show(
+                    $"Do you want to subscribe to {plan.PlanName} for {plan.Price:C}?",
+                    "Confirm Subscription",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Question);
+
+                if (result == MessageBoxResult.Yes)
+                {
+                    await _membershipService.SubscribeToPlan(_user.Id, plan.Id);
+                    MessageBox.Show("Subscription successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    LoadUserInfo();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }
