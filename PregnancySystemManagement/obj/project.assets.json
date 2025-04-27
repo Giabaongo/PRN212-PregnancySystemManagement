@@ -3138,23 +3138,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TAI LOC\\.nuget\\packages\\": {},
+    "C:\\Users\\BAO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\prn212\\PRN212-PregnancySystemManagement\\PregnancySystemManagement\\PregnancySystemManagement.csproj",
+      "projectUniqueName": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\PregnancySystemManagement.csproj",
       "projectName": "PregnancySystemManagement",
-      "projectPath": "F:\\prn212\\PRN212-PregnancySystemManagement\\PregnancySystemManagement\\PregnancySystemManagement.csproj",
-      "packagesPath": "C:\\Users\\TAI LOC\\.nuget\\packages\\",
-      "outputPath": "F:\\prn212\\PRN212-PregnancySystemManagement\\PregnancySystemManagement\\obj\\",
+      "projectPath": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\PregnancySystemManagement.csproj",
+      "packagesPath": "C:\\Users\\BAO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\TAI LOC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BAO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3169,8 +3169,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "F:\\prn212\\PRN212-PregnancySystemManagement\\BLL\\BLL.csproj": {
-              "projectPath": "F:\\prn212\\PRN212-PregnancySystemManagement\\BLL\\BLL.csproj"
+            "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\BLL.csproj"
             }
           }
         }
@@ -3185,7 +3185,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -3209,7 +3209,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

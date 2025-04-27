@@ -1,27 +1,41 @@
 ﻿<Window x:Class="PregnancySystemManagement.LoginWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PregnancySystemManagement"
-        mc:Ignorable="d"
-        Title="Login" Height="300" Width="400">
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:local="clr-namespace:PregnancySystemManagement"
+         mc:Ignorable="d"
+         Title="Login"
+         Height="332"
+         Width="400"
+         WindowStartupLocation="CenterScreen">
     <Grid>
-        <StackPanel Margin="20">
-            <TextBlock Text="Email:" Margin="0,10"/>
-            <TextBox x:Name="txtEmail" Height="25"/>
-            
-            <TextBlock Text="Password:" Margin="0,10"/>
-            <PasswordBox x:Name="txtPassword" Height="25"/>
-            
-            <Button x:Name="btnLogin" Content="Login" 
-                    Margin="0,20" Height="30"
-                    Click="btnLogin_Click"/>
-            
+        <StackPanel VerticalAlignment="Center"
+                     Margin="20">
+            <TextBlock Text="Login"
+                        FontSize="24"
+                        HorizontalAlignment="Center"
+                        Margin="0,0,0,20"/>
+            <TextBlock Text="&#x9;Email:"/>
+            <TextBox x:Name="txtEmail"
+                      Margin="0,5,0,15" Width="258"/>
+
+            <TextBlock Text="&#x9;Password:"/>
+            <PasswordBox x:Name="txtPassword"
+                          Margin="0,5,0,15" Width="258"/>
+
+            <Button Content="Login"
+                     Click="btnLogin_Click"
+                     Width="100"
+                     Height="30"
+                     Background="#FF007ACC"
+                     Foreground="White"/>
+            <Label Content="For admin or manager"
+                    HorizontalAlignment="Center"/>
             <TextBlock x:Name="txtError" 
-                       Foreground="Red" 
-                       TextWrapping="Wrap"
-                       TextAlignment="Center"/>
+                        Foreground="Red" 
+                        TextWrapping="Wrap"
+                        TextAlignment="Center"/>
         </StackPanel>
     </Grid>
 </Window>

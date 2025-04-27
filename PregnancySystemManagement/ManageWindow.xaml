@@ -32,12 +32,12 @@
                        Margin="0,0,20,0"/>
         </Grid>
 
-        <!-- Tab Control for Different Management Sections -->
+        
         <TabControl Grid.Row="1" Margin="10">
-            <!-- Users Tab -->
+           
             <TabItem Header="Users">
                 <Grid>
-                    <!-- Search Panel -->
+                    
                     <Grid Margin="20,10">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
@@ -58,14 +58,13 @@
                                 Background="#007ACC" Foreground="White" Click="btnSearch_Click"/>
                     </Grid>
 
-                    <!-- Main Content -->
+                    
                     <Grid Margin="20,0,20,20">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="650*"/>
                             <ColumnDefinition Width="350*"/>
                         </Grid.ColumnDefinitions>
 
-                        <!-- Data Grid -->
                         <DataGrid x:Name="dgData" 
                                   Grid.Column="0"
                                   AutoGenerateColumns="False"
@@ -83,7 +82,7 @@
                             </DataGrid.Columns>
                         </DataGrid>
 
-                        <!-- Details Form -->
+                    
                         <Border Grid.Column="1" Margin="10,0,0,0" Padding="20" Background="#f5f5f5" CornerRadius="5">
                             <StackPanel>
                                 <TextBlock Text="Information Details" FontSize="18" FontWeight="Bold" Margin="0,0,0,20"/>

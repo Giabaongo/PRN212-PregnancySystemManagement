@@ -5028,23 +5028,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TAI LOC\\.nuget\\packages\\": {},
+    "C:\\Users\\BAO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\prn212\\PRN212-PregnancySystemManagement\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "f:\\prn212\\PRN212-PregnancySystemManagement\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\TAI LOC\\.nuget\\packages\\",
-      "outputPath": "f:\\prn212\\PRN212-PregnancySystemManagement\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\BAO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\TAI LOC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BAO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5071,7 +5071,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -5118,7 +5118,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

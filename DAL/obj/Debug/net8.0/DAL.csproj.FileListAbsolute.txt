@@ -27,3 +27,4 @@ F:\prn212\PRN212-PregnancySystemManagement\DAL\bin\Debug\net8.0\DAL.dll
 F:\prn212\PRN212-PregnancySystemManagement\DAL\bin\Debug\net8.0\DAL.pdb
 F:\prn212\PRN212-PregnancySystemManagement\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 F:\prn212\PRN212-PregnancySystemManagement\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\DAL\obj\Debug\net8.0\DAL.sourcelink.json

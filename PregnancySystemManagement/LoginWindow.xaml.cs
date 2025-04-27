@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
 using BLL.Service;
 using DAL.Models;
 
@@ -23,7 +11,7 @@ namespace PregnancySystemManagement
     {
         private readonly UserService _userService;
 
-        public LoginWindow( )
+        public LoginWindow()
         {
             InitializeComponent();
             _userService = new UserService();
@@ -35,6 +23,20 @@ namespace PregnancySystemManagement
             string password = txtPassword.Password;
 
             User user = _userService.GetUserLogin(email, password);
+
+            //if (user != null && user.UserType == "1")
+            //{
+            //    MainWindow mainWindow = new MainWindow();
+            //    mainWindow.Show();
+            //    this.Close();
+            //}
+            //else
+            //else if (user != null && user.UserType == "2")
+            //{
+            //    DoctorWindow doctorWindow = new DoctorWindow(user, _userService);
+            //    doctorWindow.Show();
+            //    this.Close();
+            //}
 
             if (user != null && (user.UserType == "3" || user.UserType == "4"))
             {
