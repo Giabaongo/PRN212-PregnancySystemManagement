@@ -5,82 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PregnancySystemManagement"
         mc:Ignorable="d"
-        Title="Choose Membership Plan"
-        Height="600"
-        Width="1100">
-    <Grid Margin="20">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-
-        <Grid Grid.Row="0"
-              Background="#007ACC"
-              Height="50">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
-            <TextBlock x:Name="txtWelcome"
-                       Text="Welcome to Pregnancy System Management"
-                       Foreground="White"
-                       FontSize="16"
-                       VerticalAlignment="Center"
-                       TextAlignment="Center"/>
-            <TextBlock x:Name="txtUserInfo"
-                       Grid.Column="1"
-                       Foreground="White"
-                       FontSize="14"
-                       VerticalAlignment="Center"
-                       Margin="0,0,20,0"/>
-        </Grid>
-        <!-- Header -->
-        <TextBlock Text="Choose Your Membership Plan"
-                   FontSize="24"
-                   FontWeight="Bold"
-                   Margin="0,4,0,399"
-                   Grid.Row="1"/>
-
-        <!-- Membership Plans List -->
-        <ItemsControl x:Name="membershipPlansList"
-                      Grid.Row="1"
-                      Margin="0,100,0,-43">
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <WrapPanel/>
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <Border BorderBrush="#007ACC"
-                            BorderThickness="2"
-                            CornerRadius="10"
-                            Padding="20"
-                            Margin="0,0,20,20"
-                            Width="300">
-                        <StackPanel>
-                            <TextBlock Text="{Binding PlanName}"
-                                       FontSize="20"
-                                       FontWeight="Bold"/>
-                            <TextBlock Text="{Binding Description}"
-                                       Margin="0,10,0,0"/>
-                            <TextBlock Text="{Binding Price, StringFormat='Price: {0:C}'}"
-                                       FontSize="16"
-                                       FontWeight="Bold"
-                                       Margin="0,10,0,0"/>
-                            <TextBlock Text="{Binding Duration, StringFormat='Duration: {0} months'}"
-                                       Margin="0,5,0,0"/>
-                            <Button Content="Subscribe"
-                                    Background="#007ACC"
-                                    Foreground="White"
-                                    Padding="10,5"
-                                    Margin="0,20,0,0"
-                                    Click="SubscribeButton_Click"/>
-                        </StackPanel>
-                    </Border>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+        Title="UserWindow" Height="450" Width="800">
+    <Grid>
+        
     </Grid>
 </Window>

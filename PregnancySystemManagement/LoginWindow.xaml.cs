@@ -40,7 +40,7 @@ namespace PregnancySystemManagement
                 }
                 else
                 {
-                    UserWindow userWindow = new UserWindow(user, _userService);
+                    MembershipPlansWindow userWindow = new MembershipPlansWindow(user, _userService);
                     userWindow.Show();
                     this.Close();
                 }
