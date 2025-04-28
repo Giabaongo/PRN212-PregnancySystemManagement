@@ -22,27 +22,7 @@ namespace PregnancySystemManagement
         private ObservableCollection<Post> _posts;
         private Post _selectedPost;
 
-        // XAML Controls
-        //private ListView ProfilesListView;
-        //private ListView PostsListView;
-        //private Button NewProfileButton;
-        //private Button SelectProfileButton;
-        //private Button SaveMeasurementButton;
-        //private Button PostButton;
-        //private Button CommentButton;
-        //private TextBox PostTitleTextBox;
-        //private TextBox PostContentTextBox;
-        //private TextBox CommentTextBox;
-        //private TextBox WeekTextBox;
-        //private TextBox WeightTextBox;
-        //private TextBox HeightTextBox;
-        //private TextBox BPDTextBox;
-        //private TextBox FLTextBox;
-        //private TextBox HCTextBox;
-        //private TextBox ACTextBox;
-        //private TextBox NotesTextBox;
-        //private Grid MeasurementForm;
-        //private Border ResultsPanel;
+        private ObservableCollection<FetalMeasurement> _measurementHistory = new ObservableCollection<FetalMeasurement>();
 
         public UserWindow(PregnancyTrackingSystemContext context, User currentUser)
         {
@@ -226,11 +206,26 @@ namespace PregnancySystemManagement
             }
         }
 
+        private void LoadMeasurementHistory()
+        {
+            if (_selectedProfile == null)
+            {
+                MeasurementHistoryListView.ItemsSource = null;
+                return;
+            }
+            var measurements = _measurementService.GetMeasurementsByProfileId(_selectedProfile.Id);
+            _measurementHistory.Clear();
+            foreach (var m in measurements)
+                _measurementHistory.Add(m);
+            MeasurementHistoryListView.ItemsSource = _measurementHistory;
+        }
+
         private void SelectProfileButton_Click(object sender, RoutedEventArgs e)
         {
             if (ProfilesListView.SelectedItem is PregnancyProfile selectedProfile)
             {
                 _selectedProfile = selectedProfile;
+                LoadMeasurementHistory();
                 EnableMeasurementForm();
             }
             else
@@ -281,7 +276,7 @@ namespace PregnancySystemManagement
                     measurement.Notes
                 );
 
-                // Gán kết quả phân tích vào ResultsTextBlock
+
                 ResultsTextBlock.Text = _measurementService.CompareWithStandards(measurement);
                 ResultsPanel.Visibility = Visibility.Visible;
 

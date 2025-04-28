@@ -7,8 +7,7 @@
         mc:Ignorable="d"
         Title="Pregnancy Tracking System"
         Height="700"
-        Width="1000"
-        >
+        Width="1000">
     <Grid Margin="20">
         <TabControl>
             <!-- Pregnancy Profiles Tab -->
@@ -203,10 +202,8 @@
                                        FontWeight="Bold"
                                        Margin="0,0,0,10"/>
                             <TextBox x:Name="PostTitleTextBox"
-                                     
                                      Margin="0,0,0,10"/>
                             <TextBox x:Name="PostContentTextBox"
-                                     
                                      Height="100"
                                      TextWrapping="Wrap"
                                      Margin="0,0,0,10"/>
@@ -232,7 +229,7 @@
                                                Margin="0,5,0,0"/>
                                     <TextBlock>
                                         <Run Text="Posted by: "/>
-                                        <Run Text="{Binding User.Name}"/>
+                                        <Run Text="{Binding User.LastName}"/>
                                         <Run Text=" on "/>
                                         <Run Text="{Binding CreatedAt, StringFormat=d}"/>
                                     </TextBlock>
@@ -245,7 +242,7 @@
                                                                TextWrapping="Wrap"/>
                                                     <TextBlock>
                                                         <Run Text="By: "/>
-                                                        <Run Text="{Binding User.Name}"/>
+                                                        <Run Text="{Binding User.LastName}"/>
                                                         <Run Text=" on "/>
                                                         <Run Text="{Binding CreatedAt, StringFormat=d}"/>
                                                     </TextBlock>
@@ -269,7 +266,6 @@
                                        FontWeight="Bold"
                                        Margin="0,0,0,10"/>
                             <TextBox x:Name="CommentTextBox"
-                                     
                                      Height="60"
                                      TextWrapping="Wrap"
                                      Margin="0,0,0,10"/>
@@ -281,6 +277,25 @@
                     </Border>
                 </Grid>
             </TabItem>
+        <TabItem Header="Measurement History" >
+            <Grid>
+                <ListView x:Name="MeasurementHistoryListView" Margin="10">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Week" DisplayMemberBinding="{Binding Week}" Width="50"/>
+                            <GridViewColumn Header="Weight (g)" DisplayMemberBinding="{Binding WeightGrams}" Width="80"/>
+                            <GridViewColumn Header="Height (cm)" DisplayMemberBinding="{Binding HeightCm}" Width="80"/>
+                            <GridViewColumn Header="BPD (cm)" DisplayMemberBinding="{Binding BiparietalDiameterCm}" Width="80"/>
+                            <GridViewColumn Header="FL (cm)" DisplayMemberBinding="{Binding FemoralLengthCm}" Width="80"/>
+                            <GridViewColumn Header="HC (cm)" DisplayMemberBinding="{Binding HeadCircumferenceCm}" Width="80"/>
+                            <GridViewColumn Header="AC (cm)" DisplayMemberBinding="{Binding AbdominalCircumferenceCm}" Width="80"/>
+                            <GridViewColumn Header="Notes" DisplayMemberBinding="{Binding Notes}" Width="120"/>
+                            <GridViewColumn Header="Date" DisplayMemberBinding="{Binding CreatedAt, StringFormat=d}" Width="100"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+        </TabItem>
         </TabControl>
     </Grid>
 </Window>

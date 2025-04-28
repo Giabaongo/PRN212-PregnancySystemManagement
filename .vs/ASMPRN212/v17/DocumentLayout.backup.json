@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\bll\\services\\fetalmeasurementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|solutionrelative:bll\\services\\fetalmeasurementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -35,20 +55,8 @@
       "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\fetalmeasurementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\dal\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F03446E5-9BE4-4E3C-9C22-9FD9DC806CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\bll\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|solutionrelative:bll\\service\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\bll\\services\\fetalmeasurementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{736CBE8E-6C91-4BD9-9597-CA73E3798DE8}|BLL\\BLL.csproj|solutionrelative:bll\\services\\fetalmeasurementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|solutionrelative:pregnancysystemmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64740896-2B84-4374-A323-6D101BFD95F9}|PregnancySystemManagement\\PregnancySystemManagement.csproj|c:\\users\\bao\\documents\\fpt courses\\prn212\\assignment\\asmprn212\\pregnancysystemmanagement\\membershipplanswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +110,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repository\\UserRepository.cs",
@@ -111,7 +119,32 @@
               "ViewState": "AgIAADMAAAAAAAAAAAAtwEYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T18:44:14.181Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\Post.cs",
+              "RelativeToolTip": "DAL\\Models\\Post.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewBkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:48:25.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Models\\User.cs",
+              "RelativeToolTip": "DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T04:47:57.223Z",
               "EditorCaption": ""
             },
             {
@@ -144,72 +177,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FetalMeasurementService.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Service\\FetalMeasurementService.cs",
-              "RelativeDocumentMoniker": "BLL\\Service\\FetalMeasurementService.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Service\\FetalMeasurementService.cs",
-              "RelativeToolTip": "BLL\\Service\\FetalMeasurementService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T03:21:13.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PregnancyProfileRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PregnancyProfileRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repository\\PregnancyProfileRepository.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PregnancyProfileRepository.cs",
-              "RelativeToolTip": "DAL\\Repository\\PregnancyProfileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T03:19:44.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PostRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repository\\PostRepository.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PostRepository.cs",
-              "RelativeToolTip": "DAL\\Repository\\PostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T03:13:29.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Service\\PostService.cs",
-              "RelativeDocumentMoniker": "BLL\\Service\\PostService.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Service\\PostService.cs",
-              "RelativeToolTip": "BLL\\Service\\PostService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T03:13:12.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UserWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\UserWindow.xaml.cs",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\UserWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\UserWindow.xaml.cs*",
-              "RelativeToolTip": "PregnancySystemManagement\\UserWindow.xaml.cs*",
-              "ViewState": "AgIAABEBAAAAAAAAAAAswCgBAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\UserWindow.xaml.cs",
+              "RelativeToolTip": "PregnancySystemManagement\\UserWindow.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAIAwwGoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T18:10:50.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "MembershipRepository.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repositories\\MembershipRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\MembershipRepository.cs",
@@ -221,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserWindow.xaml",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\UserWindow.xaml",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\UserWindow.xaml",
@@ -233,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\appsettings.json",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\appsettings.json",
@@ -241,12 +222,86 @@
               "RelativeToolTip": "PregnancySystemManagement\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-30T16:46:51.996Z",
+              "WhenOpened": "2025-03-30T16:46:51.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PregnancySystemManagement\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "PregnancySystemManagement\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T17:42:27.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PostRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PostRepository.cs",
+              "RelativeToolTip": "DAL\\Repository\\PostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:13:29.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FetalMeasurementService.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\FetalMeasurementService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\FetalMeasurementService.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\FetalMeasurementService.cs",
+              "RelativeToolTip": "BLL\\Services\\FetalMeasurementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:21:07.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Service\\PostService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\PostService.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Service\\PostService.cs",
+              "RelativeToolTip": "BLL\\Service\\PostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:13:12.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PregnancyProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PregnancyProfileRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\PregnancyProfileRepository.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\PregnancyProfileRepository.cs",
+              "RelativeToolTip": "DAL\\Repository\\PregnancyProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:19:44.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FetalMeasurementService.cs",
+              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Service\\FetalMeasurementService.cs",
+              "RelativeDocumentMoniker": "BLL\\Service\\FetalMeasurementService.cs",
+              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Service\\FetalMeasurementService.cs",
+              "RelativeToolTip": "BLL\\Service\\FetalMeasurementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:21:13.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PregnancyProfileService.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Service\\PregnancyProfileService.cs",
               "RelativeDocumentMoniker": "BLL\\Service\\PregnancyProfileService.cs",
@@ -254,12 +309,11 @@
               "RelativeToolTip": "BLL\\Service\\PregnancyProfileService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T03:45:47.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T03:45:47.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "FetalMeasurementRepository.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\DAL\\Repository\\FetalMeasurementRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repository\\FetalMeasurementRepository.cs",
@@ -267,24 +321,11 @@
               "RelativeToolTip": "DAL\\Repository\\FetalMeasurementRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T18:56:13.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T18:56:13.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FetalMeasurementService.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\FetalMeasurementService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\FetalMeasurementService.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\FetalMeasurementService.cs",
-              "RelativeToolTip": "BLL\\Services\\FetalMeasurementService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAewDgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T03:21:07.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MembershipPlansWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\MembershipPlansWindow.xaml.cs",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\MembershipPlansWindow.xaml.cs",
@@ -296,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "NewPregnancyProfileWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\NewPregnancyProfileWindow.xaml.cs",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\NewPregnancyProfileWindow.xaml.cs",
@@ -308,19 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "PregnancySystemManagement\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "PregnancySystemManagement\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAIAwwCQAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T17:42:27.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "MembershipPlansWindow.xaml",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\MembershipPlansWindow.xaml",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\MembershipPlansWindow.xaml",
@@ -331,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\App.xaml",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\App.xaml",
@@ -343,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\AssemblyInfo.cs",
@@ -355,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "NewPregnancyProfileWindow.xaml",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\NewPregnancyProfileWindow.xaml",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\NewPregnancyProfileWindow.xaml",
@@ -366,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ManageWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\ManageWindow.xaml.cs",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\ManageWindow.xaml.cs",
@@ -378,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ManageWindow.xaml",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\PregnancySystemManagement\\ManageWindow.xaml",
               "RelativeDocumentMoniker": "PregnancySystemManagement\\ManageWindow.xaml",
@@ -389,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "MembershipService.cs",
               "DocumentMoniker": "C:\\Users\\BAO\\Documents\\FPT courses\\PRN212\\Assignment\\ASMPRN212\\BLL\\Services\\MembershipService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\MembershipService.cs",

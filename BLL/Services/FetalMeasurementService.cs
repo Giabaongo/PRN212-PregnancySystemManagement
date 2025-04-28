@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using System.Text;
 using DAL.Models;
 using DAL.Repository;
@@ -96,5 +94,7 @@ namespace BLL.Services
             builder.AppendLine($"  Status: {status} ({difference:F1}% difference)");
             builder.AppendLine();
         }
+
+
     }
 }
