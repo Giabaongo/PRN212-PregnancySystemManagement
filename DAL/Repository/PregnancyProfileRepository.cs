@@ -10,14 +10,17 @@ namespace DAL.Repository
     {
         private readonly PregnancyTrackingSystemContext _context;
 
-        public PregnancyProfileRepository()
+        public PregnancyProfileRepository(PregnancyTrackingSystemContext context)
         {
-            _context = new PregnancyTrackingSystemContext();
+            _context = context;
         }
 
         public List<PregnancyProfile> GetAll()
         {
-            return _context.PregnancyProfiles.Include(p => p.User).Include(p => p.FetalMeasurements).ToList();
+            return _context.PregnancyProfiles
+                .Include(p => p.User)
+                .Include(p => p.FetalMeasurements)
+                .ToList();
         }
 
         public PregnancyProfile GetById(int id)
@@ -33,6 +36,7 @@ namespace DAL.Repository
             return _context.PregnancyProfiles
                 .Include(p => p.FetalMeasurements)
                 .Where(p => p.UserId == userId)
+                .OrderByDescending(p => p.CreatedAt)
                 .ToList();
         }
 
@@ -54,4 +58,4 @@ namespace DAL.Repository
             _context.SaveChanges();
         }
     }
-} 
+}

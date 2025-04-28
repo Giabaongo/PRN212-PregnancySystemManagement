@@ -5,8 +5,271 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PregnancySystemManagement"
         mc:Ignorable="d"
-        Title="UserWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Pregnancy Tracking System"
+        Height="700"
+        Width="1000">
+    <Grid Margin="20">
+        <TabControl>
+            <!-- Pregnancy Profiles Tab -->
+            <TabItem Header="Pregnancy Profiles">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Left Panel - Pregnancy Profiles -->
+                    <StackPanel Grid.Column="0"
+                                Margin="0,0,10,0">
+                        <TextBlock Text="Pregnancy Profiles"
+                                   FontSize="24"
+                                   FontWeight="Bold"
+                                   Margin="0,0,0,20"/>
+
+                        <ListView x:Name="ProfilesListView"
+                                  Height="400"
+                                  Margin="0,0,0,10">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Margin="5">
+                                        <TextBlock Text="{Binding Name}"
+                                                   FontWeight="Bold"/>
+                                        <TextBlock>
+                                            <Run Text="Due Date: "/>
+                                            <Run Text="{Binding DueDate, StringFormat=d}"/>
+                                        </TextBlock>
+                                        <TextBlock>
+                                            <Run Text="Status: "/>
+                                            <Run Text="{Binding PregnancyStatus}"/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+
+                        <StackPanel Orientation="Horizontal"
+                                    HorizontalAlignment="Center"
+                                    Margin="0,10,0,0">
+                            <Button x:Name="NewProfileButton"
+                                    Content="Create New Profile"
+                                    Width="150"
+                                    Height="30"
+                                    Margin="0,0,10,0"/>
+                            <Button x:Name="SelectProfileButton"
+                                    Content="Select Profile"
+                                    Width="150"
+                                    Height="30"/>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- Right Panel - Fetal Measurements -->
+                    <StackPanel Grid.Column="1"
+                                Margin="10,0,0,0">
+                        <TextBlock Text="Fetal Measurements"
+                                   FontSize="24"
+                                   FontWeight="Bold"
+                                   Margin="0,0,0,20"/>
+
+                        <Grid x:Name="MeasurementForm">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Text="Week:"
+                                       Grid.Row="0"
+                                       Margin="0,5"/>
+                            <TextBox x:Name="WeekTextBox"
+                                     Grid.Row="0"
+                                     Grid.Column="1"
+                                     Margin="5"/>
+
+                            <TextBlock Text="Weight (g):"
+                                       Grid.Row="1"
+                                       Margin="0,5"/>
+                            <TextBox x:Name="WeightTextBox"
+                                     Grid.Row="1"
+                                     Grid.Column="1"
+                                     Margin="5"/>
+
+                            <TextBlock Text="Height (cm):"
+                                       Grid.Row="2"
+                                       Margin="0,5"/>
+                            <TextBox x:Name="HeightTextBox"
+                                     Grid.Row="2"
+                                     Grid.Column="1"
+                                     Margin="5"/>
+
+                            <TextBlock Text="Biparietal Diameter (cm):"
+                                       Grid.Row="3"
+                                       Margin="0,5"/>
+                            <TextBox x:Name="BPDTextBox"
+                                     Grid.Row="3"
+                                     Grid.Column="1"
+                                     Margin="5"/>
+
+                            <TextBlock Text="Femoral Length (cm):"
+                                       Grid.Row="4"
+                                       Margin="0,5"/>
+                            <TextBox x:Name="FLTextBox"
+                                     Grid.Row="4"
+                                     Grid.Column="1"
+                                     Margin="5"/>
+
+                            <TextBlock Text="Head Circumference (cm):"
+                                       Grid.Row="5"
+                                       Margin="0,5"/>
+                            <TextBox x:Name="HCTextBox"
+                                     Grid.Row="5"
+                                     Grid.Column="1"
+                                     Margin="5"/>
+
+                            <TextBlock Text="Abdominal Circumference (cm):"
+                                       Grid.Row="6"
+                                       Margin="0,5"/>
+                            <TextBox x:Name="ACTextBox"
+                                     Grid.Row="6"
+                                     Grid.Column="1"
+                                     Margin="5"/>
+
+                            <TextBlock Text="Notes:"
+                                       Grid.Row="7"
+                                       Margin="0,5"/>
+                            <TextBox x:Name="NotesTextBox"
+                                     Grid.Row="7"
+                                     Grid.Column="1"
+                                     Margin="5"
+                                     Height="60"
+                                     TextWrapping="Wrap"/>
+
+                            <Button x:Name="SaveMeasurementButton"
+                                    Content="Save Measurement"
+                                    Grid.Row="8"
+                                    Grid.ColumnSpan="2"
+                                    Height="30"
+                                    Margin="0,20,0,0"
+                                    HorizontalAlignment="Center"
+                                    Width="200"/>
+                        </Grid>
+
+                        <!-- Results Section -->
+                        <Border x:Name="ResultsPanel"
+                                BorderBrush="Gray"
+                                BorderThickness="1"
+                                Margin="0,20,0,0"
+                                Padding="10">
+                            <StackPanel>
+                                <TextBlock Text="Growth Analysis Results"
+                                           FontWeight="Bold"
+                                           Margin="0,0,0,10"/>
+                                <TextBlock x:Name="ResultsTextBlock"
+                                           TextWrapping="Wrap"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Posts Tab -->
+            <TabItem Header="Community Posts">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- New Post Section -->
+                    <Border Grid.Row="0"
+                            BorderBrush="Gray"
+                            BorderThickness="1"
+                            Margin="0,0,0,20"
+                            Padding="10">
+                        <StackPanel>
+                            <TextBlock Text="Create New Post"
+                                       FontSize="18"
+                                       FontWeight="Bold"
+                                       Margin="0,0,0,10"/>
+                            <TextBox x:Name="PostTitleTextBox"
+                                     PlaceholderText="Post Title"
+                                     Margin="0,0,0,10"/>
+                            <TextBox x:Name="PostContentTextBox"
+                                     PlaceholderText="Write your post here..."
+                                     Height="100"
+                                     TextWrapping="Wrap"
+                                     Margin="0,0,0,10"/>
+                            <Button x:Name="PostButton"
+                                    Content="Post"
+                                    Width="100"
+                                    HorizontalAlignment="Right"/>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Posts List -->
+                    <ListView x:Name="PostsListView"
+                              Grid.Row="1"
+                              Margin="0,0,0,20">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Gray"
+                                        BorderThickness="1"
+                                        Margin="0,5"
+                                        Padding="10">
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Title}"
+                                                   FontWeight="Bold"
+                                                   FontSize="16"/>
+                                        <TextBlock Text="{Binding Content}"
+                                                   TextWrapping="Wrap"
+                                                   Margin="0,5,0,0"/>
+                                        <StackPanel Orientation="Horizontal"
+                                                    Margin="0,10,0,0">
+                                            <TextBlock Text="{Binding User.Username}"
+                                                       FontStyle="Italic"/>
+                                            <TextBlock Text=" - "
+                                                       Margin="5,0"/>
+                                            <TextBlock Text="{Binding CreatedAt, StringFormat=d}"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                    <!-- Comments Section -->
+                    <Border Grid.Row="2"
+                            BorderBrush="Gray"
+                            BorderThickness="1"
+                            Padding="10">
+                        <StackPanel>
+                            <TextBlock Text="Comments"
+                                       FontSize="16"
+                                       FontWeight="Bold"
+                                       Margin="0,0,0,10"/>
+                            <TextBox x:Name="CommentTextBox"
+                                     PlaceholderText="Write a comment..."
+                                     Height="60"
+                                     TextWrapping="Wrap"
+                                     Margin="0,0,0,10"/>
+                            <Button x:Name="CommentButton"
+                                    Content="Add Comment"
+                                    Width="120"
+                                    HorizontalAlignment="Right"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>

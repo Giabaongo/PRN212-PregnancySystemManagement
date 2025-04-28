@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PregnancySystemManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eea1abe2356d3ea0e2991e83e706ace4107796c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7b40865eae30516bc69738efd9ab98a597020da")]
 [assembly: System.Reflection.AssemblyProductAttribute("PregnancySystemManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PregnancySystemManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

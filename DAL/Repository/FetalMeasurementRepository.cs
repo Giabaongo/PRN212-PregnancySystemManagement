@@ -10,14 +10,16 @@ namespace DAL.Repository
     {
         private readonly PregnancyTrackingSystemContext _context;
 
-        public FetalMeasurementRepository( )
+        public FetalMeasurementRepository(PregnancyTrackingSystemContext context)
         {
-            _context =  new PregnancyTrackingSystemContext();
+            _context = context;
         }
 
         public List<FetalMeasurement> GetAll()
         {
-            return _context.FetalMeasurements.Include(f => f.Profile).ToList();
+            return _context.FetalMeasurements
+                .Include(f => f.Profile)
+                .ToList();
         }
 
         public FetalMeasurement GetById(int id)
@@ -31,7 +33,14 @@ namespace DAL.Repository
         {
             return _context.FetalMeasurements
                 .Where(f => f.ProfileId == profileId)
+                .OrderByDescending(f => f.CreatedAt)
                 .ToList();
+        }
+
+        public FetalGrowthStandard GetGrowthStandardByWeek(int week)
+        {
+            return _context.FetalGrowthStandards
+                .FirstOrDefault(s => s.WeekNumber == week);
         }
 
         public void Add(FetalMeasurement measurement)
@@ -52,4 +61,4 @@ namespace DAL.Repository
             _context.SaveChanges();
         }
     }
-} 
+}

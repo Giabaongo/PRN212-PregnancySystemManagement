@@ -160,3 +160,5 @@ C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemMa
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\MembershipPlansWindow.baml
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\UserWindow.g.cs
 C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\UserWindow.baml
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\NewPregnancyProfileWindow.g.cs
+C:\Users\BAO\Documents\FPT courses\PRN212\Assignment\ASMPRN212\PregnancySystemManagement\obj\Debug\net8.0-windows\NewPregnancyProfileWindow.baml

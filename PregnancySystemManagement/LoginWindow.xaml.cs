@@ -34,7 +34,7 @@ namespace PregnancySystemManagement
                 if (membership != null)
                 {
                     MessageBox.Show("Bạn đã có membership", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
-                    UserWindow userWindow = new UserWindow(user, _userService);
+                    UserWindow userWindow = new UserWindow(new PregnancyTrackingSystemContext(), user);
                     userWindow.Show();
                     this.Close();
                 }
