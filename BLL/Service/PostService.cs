@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using DAL.Models;
 using DAL.Repository;
 
@@ -10,29 +7,29 @@ namespace BLL.Service
     {
         private readonly PostRepository _postRepository;
 
-        public PostService( )
+        public PostService()
         {
             _postRepository = new PostRepository();
         }
 
         public List<Post> GetAllPosts()
         {
-            return _postRepository.GetAll();
+            return _postRepository.GetAllPosts();
         }
 
         public Post GetPostById(int id)
         {
-            return _postRepository.GetById(id);
+            return _postRepository.GetPostById(id);
         }
 
-        public List<Post> GetPostsByUserId(int userId)
-        {
-            return _postRepository.GetByUserId(userId);
-        }
+        //public List<Post> GetPostsByUserId(int userId)
+        //{
+        //    return _postRepository.GetByUserId(userId);
+        //}
 
         public void CreatePost(Post post)
         {
-            _postRepository.Add(post);
+            _postRepository.AddPost(post);
         }
 
         public void UpdatePost(Post post)
@@ -45,4 +42,4 @@ namespace BLL.Service
             _postRepository.Delete(post);
         }
     }
-} 
+}

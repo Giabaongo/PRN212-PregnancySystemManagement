@@ -1,0 +1,64 @@
+<Window x:Class="GUI.Windows.PregnancyProfilesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pregnancy Profiles"
+        Height="450"
+        Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal"
+                Grid.Row="0"
+                Margin="0,0,0,10">
+            <Button x:Name="btnNewProfile"
+                    Content="New Profile"
+                    Width="100"
+                    Height="30"
+                    Margin="0,0,10,0"
+                    Click="btnNewProfile_Click"/>
+        </StackPanel>
+
+        <DataGrid x:Name="dgProfiles"
+                Grid.Row="1"
+                AutoGenerateColumns="False"
+                IsReadOnly="True"
+                SelectionMode="Single"
+                SelectionChanged="dgProfiles_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name"
+                        Binding="{Binding Name}"
+                        Width="*"/>
+                <DataGridTextColumn Header="Conception Date"
+                        Binding="{Binding ConceptionDate, StringFormat=d}"
+                        Width="*"/>
+                <DataGridTextColumn Header="Due Date"
+                        Binding="{Binding DueDate, StringFormat=d}"
+                        Width="*"/>
+                <DataGridTextColumn Header="Status"
+                        Binding="{Binding PregnancyStatus}"
+                        Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2"
+                Orientation="Horizontal"
+                HorizontalAlignment="Right"
+                Margin="0,10,0,0">
+            <Button x:Name="btnSelect"
+                    Content="Select Profile"
+                    Width="100"
+                    Height="30"
+                    Margin="0,0,10,0"
+                    Click="btnSelect_Click"/>
+            <Button x:Name="btnCancel"
+                    Content="Cancel"
+                    Width="100"
+                    Height="30"
+                    Click="btnCancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window> 

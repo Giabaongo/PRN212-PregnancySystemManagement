@@ -1,8 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
 using DAL.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace DAL.Repository
 {
@@ -10,9 +7,9 @@ namespace DAL.Repository
     {
         private readonly PregnancyTrackingSystemContext _context;
 
-        public PregnancyProfileRepository(PregnancyTrackingSystemContext context)
+        public PregnancyProfileRepository()
         {
-            _context = context;
+            _context = new PregnancyTrackingSystemContext();
         }
 
         public List<PregnancyProfile> GetAll()
